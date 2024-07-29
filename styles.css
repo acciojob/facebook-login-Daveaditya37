@@ -1,6 +1,7 @@
 /*  your css code here. If applicable */
 body{
-	background-color:#f0f2f5;
+	background-color:#f6f6f6;
+	display:flex;
 }
 .facebook{
 	display:flex;
@@ -24,7 +25,7 @@ body{
 	height:300px;
 	box-shadow:2px 2px 6px lightgray;
 }
-.email input{
+#email{
 	width:89%;
 	padding:15px;
 	border-radius:8px;
@@ -32,7 +33,7 @@ body{
 	margin-bottom:15px;
 }
 
-.password input{
+#password{
 	width:89%;
 	padding:15px;
 	border-radius:8px;
@@ -55,7 +56,7 @@ body{
 	font-weight:bold;
 	cursor:pointer;
 }
-.Create-new-account button{
+.signup button{
 	width:100%;
 	padding:5px;
 	border-radius:8px;
