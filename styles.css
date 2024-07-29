@@ -1,1 +1,74 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#f0f2f5;
+}
+.facebook{
+	display:flex;
+	justify-content:center;
+	margin-top:150px
+	
+}
+.section p{
+	margin-left:30px
+}
+.section img{
+	width:350px
+}
+.container{
+	margin-top:-40px;
+	margin-left:140px;
+	background-color:white;
+	padding:20px;
+	border-radius:10px;
+	width:300px;
+	height:300px;
+	box-shadow:2px 2px 6px lightgray;
+}
+.email input{
+	width:89%;
+	padding:15px;
+	border-radius:8px;
+	border:2px solid #f0f2f5;
+	margin-bottom:15px;
+}
+
+.password input{
+	width:89%;
+	padding:15px;
+	border-radius:8px;
+	border:2px solid #f0f2f5;
+	margin-bottom:15px;
+}
+::placeholder{
+	
+	font-size:17px;
+}
+.btn button{
+	width:100%;
+	padding:5px;
+	border-radius:8px;
+	border:2px solid #f0f2f5;
+	margin-bottom:15px;
+	background-color: #0866ff;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.Create-new-account button{
+	width:100%;
+	padding:5px;
+	border-radius:8px;
+	border:2px solid #f0f2f5;
+	margin-bottom:15px;
+	background-color: #42b72a;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:15px;
+	cursor:pointer;
+}
+.forgot a{
+	color: #0866ff;
+	text-decoration:none;
+}
